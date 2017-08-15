@@ -12,7 +12,7 @@
         <module name="application-socle-web-interface-layer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="application-socle" target="1.5" />
       <module name="application-socle-commun" target="1.5" />
       <module name="application-socle-data-access-layer" target="1.5" />

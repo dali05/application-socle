@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2baf4da4-12f7-43c1-ac17-641f2d528197" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/tmp/jsp/org/apache/jsp/test_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/tmp/jsp/org/apache/jsp/test_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-commun/target/application-socle-commun-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-commun/target/application-socle-commun-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/target/application-socle-service-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-service-layer/target/application-socle-service-layer-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/SpringConfig.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/SpringConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/controller/GreetController.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/controller/GreetController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-service-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-service-layer-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/SpringConfig.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/SpringConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/controller/GreetController.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/controller/GreetController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/application_socle_web_interface_layer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/application_socle_web_interface_layer_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-commun/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-commun/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-service-layer/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/application-socle-web-interface-layer.iml" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/application-socle-web-interface-layer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,21 +81,31 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="296">
+              <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,21 +113,11 @@
       <file leaf-file-name="WebServletConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -101,8 +125,8 @@
       <file leaf-file-name="GreetController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,11 +134,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HelloWorldController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/HelloWorldController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/views/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="testSpringMvc.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/testSpringMvc.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="170">
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -162,6 +208,7 @@
       <find>9090</find>
       <find>jetty</find>
       <find>MohamedOussamaAbid</find>
+      <find>org.apache.maven.plugins</find>
     </findStrings>
     <replaceStrings>
       <replace>jdbc:mysql://localhost:3306/application-socle-db?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</replace>
@@ -201,12 +248,14 @@
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/filter/TestFilter.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/servlet/servlet3Test.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/listener/TestListener.java" />
-        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/resources/spring/SpringApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" />
-        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/testSpringMvc.jsp" />
+        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml" />
+        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/views/welcome.jsp" />
+        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java" />
       </list>
     </option>
   </component>
@@ -240,7 +289,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -267,13 +318,94 @@
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
               <item name="application-socle" type="462c0819:PsiDirectoryNode" />
-              <item name="application-socle-commun" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
               <item name="application-socle" type="462c0819:PsiDirectoryNode" />
-              <item name="application-socle-commun" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-web-interface-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,7 +422,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.ClearCase" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -300,22 +432,22 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\main\webapp" />
-      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\main\webapp\WEB-INF\pages" />
-      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-service-layer\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\test\conf" />
-      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.weslaty" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\main\webapp" />
       <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\main" />
       <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-data-access-layer\src\main\resources\database\migration" />
       <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-data-access-layer\src\main\resources\database\migration\V1.0.0" />
       <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-data-access-layer\src\main\resources\database\migration\" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.weslaty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\main\webapp" />
+      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\main\webapp\WEB-INF\pages" />
+      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-service-layer\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\test\conf" />
+      <recent name="C:\Users\aoueslati\IdeaProjects\application-socle\application-socle-web-interface-layer\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,12 +629,12 @@
       <workItem from="1502784236655" duration="5995000" />
       <workItem from="1502792789594" duration="632000" />
       <workItem from="1502793803461" duration="2024000" />
-      <workItem from="1502797779809" duration="638000" />
+      <workItem from="1502797779809" duration="4320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82286000" />
+    <option name="totallyTimeSpent" value="85968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,23 +646,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22135417" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25785482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22654584" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.257329" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22269353" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22258414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.420191" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.579809" order="5" side_tool="true" content_ui="tabs" x="711" y="344" width="498" height="351" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.41959065" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.58040935" order="5" side_tool="true" content_ui="tabs" x="711" y="344" width="498" height="351" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.47591242" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -541,11 +675,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -564,21 +696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-service-layer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -783,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/Servlet2.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/annotation/WebServlet.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -879,54 +989,80 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/resources/spring/SpringApplicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java">
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/testSpringMvc.jsp">
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="296">
+          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/testSpringMvc.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/views/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
