@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_0.dtd">
+
+<Configure id="Server" class="org.eclipse.jetty.webapp.WebAppContext">
+
+    <Set name="maxFormKeys">20000</Set>
+    <Set name="maxFormContentSize" type="int">1000000</Set>
+
+    <New id="p6spyDS" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg></Arg>
+        <Arg>jdbc/application_socle_db</Arg>
+        <Arg>
+            <New class="com.p6spy.engine.spy.P6DataSource">
+                <Set name="realDataSource">jdbc/application_socle_db_without_p6spy</Set>
+            </New>
+        </Arg>
+    </New>
+
+    <New id="applicationSocleDbDS" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg></Arg>
+        <Arg>jdbc/application_socle_db_without_p6spy</Arg>
+        <Arg>
+            <New class="com.zaxxer.hikari.HikariDataSource">
+                <Arg>
+                    <New class="com.zaxxer.hikari.HikariConfig">
+                        <!--Set name="minimumPoolSize">5</Set-->
+                        <Set name="maximumPoolSize">20</Set>
+                        <Set name="dataSourceClassName">com.mysql.cj.jdbc.MysqlDataSource</Set>
+                        <Set name="username">root</Set>
+                        <Set name="password">root</Set>
+                        <Set name="registerMbeans">true</Set>
+                        <Call name="addDataSourceProperty">
+                            <Arg>url</Arg>
+                            <Arg>jdbc:mysql://localhost:3306/application_socle_db?serverTimezone=UTC&amp;useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;connectionCollation=utf8_general_ci&amp;characterSetResults=utf8</Arg>
+                        </Call>
+                    </New>
+                </Arg>
+            </New>
+        </Arg>
+    </New>
+
+    <New id="mail" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg>mail/Session</Arg>
+        <Arg>
+            <New class="org.eclipse.jetty.jndi.factories.MailSessionReference">
+                <Set name="properties">
+                    <New class="java.util.Properties">
+                        <Put name="mail.smtp.host">smtp.gmail.com</Put>
+                        <Put name="mail.smtp.port">25</Put>
+                        <Put name="mail.smtp.from">weslati@gmail.com</Put>
+                    </New>
+                </Set>
+            </New>
+        </Arg>
+    </New>
+
+    <!--To test with a local FakeSMTP-->
+    <!--   <New id="mail" class="org.eclipse.jetty.plus.jndi.Resource">
+           <Arg>mail/Session</Arg>
+           <Arg>
+               <New class="org.eclipse.jetty.jndi.factories.MailSessionReference">
+                   <Set name="properties">
+                       <New class="java.util.Properties">
+                           <Put name="mail.smtp.host">localhost</Put>
+                           <Put name="mail.smtp.port">25</Put>
+                           <Put name="mail.smtp.from">from@localhost.com</Put>
+       </New>
+                   </Set>
+               </New>
+           </Arg>
+       </New>-->
+
+    <!--<New id="mail" class="org.eclipse.jetty.plus.jndi.Resource">-->
+    <!--<Arg>mail/Session</Arg>-->
+    <!--<Arg>-->
+    <!--<New class="org.eclipse.jetty.jndi.factories.MailSessionReference">-->
+    <!--<Set name="user">postmaster@stepinfo.mailgun.org</Set>-->
+    <!--<Set name="password">92btbghp31t6</Set>-->
+    <!--<Set name="properties">-->
+    <!--<New class="java.util.Properties">-->
+    <!--<Put name="mail.smtp.host">smtp.mailgun.org</Put>-->
+    <!--<Put name="mail.smtp.port">465</Put>-->
+    <!--<Put name="mail.smtp.from">ddc@stepinfo.com</Put>-->
+    <!--<Put name="mail.smtp.auth">true</Put>-->
+    <!--<Put name="mail.smtp.socketFactory.port">465</Put>-->
+    <!--<Put name="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</Put>-->
+    <!--<Put name="mail.smtp.socketFactory.fallback">false</Put>-->
+    <!--<Put name="mail.smtp.starttls.enable">true</Put>-->
+    <!--<Put name="mail.debug">true</Put>-->
+    <!--</New>-->
+    <!--</Set>-->
+    <!--</New>-->
+    <!--</Arg>-->
+    <!--</New>-->
+
+</Configure>

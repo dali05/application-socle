@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="application-socle-commun" />
+        <module name="application-socle-data-access-layer" />
+        <module name="application-socle-service-layer" />
+        <module name="application-socle-web-interface-layer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="application-socle" target="1.5" />
+      <module name="application-socle-commun" target="1.5" />
+      <module name="application-socle-data-access-layer" target="1.5" />
+      <module name="application-socle-service-layer" target="1.5" />
+      <module name="application-socle-web-interface-layer" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

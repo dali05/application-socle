@@ -1,0 +1,7 @@
+com\weslaty\web\controller\GreetController.class
+com\weslaty\web\servlet\servlet3Test.class
+com\weslaty\web\servlet\servletTest.class
+com\weslaty\web\filter\TestFilter.class
+com\weslaty\web\config\spring\WebServletConfiguration.class
+com\weslaty\web\listener\TestListener.class
+com\weslaty\web\config\spring\SpringConfig.class

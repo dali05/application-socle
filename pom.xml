@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.weslaty</groupId>
+    <artifactId>application-socle</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>${project.artifactId}</name>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <!-- Configuration -->
+        <!-- Database-->
+        <mysql.url.server>jdbc:mysql://localhost:3306?serverTimezone=UTC&amp;useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;connectionCollation=utf8_general_ci&amp;characterSetResults=utf8</mysql.url.server>
+        <mysql.username>root</mysql.username>
+        <mysql.password>root</mysql.password>
+        <!-- /Configuration -->
+
+        <!-- Dependencies version !-->
+        <javax.mail.version>1.4.7</javax.mail.version>
+        <mysql-connector-java.version>6.0.6</mysql-connector-java.version>
+        <hikaricp.version>2.6.3</hikaricp.version>
+        <p6spy.version>3.0.0</p6spy.version>
+        <!-- Plugin version !-->
+        <sql-maven-plugin.version>1.5</sql-maven-plugin.version>
+    </properties>
+
+    <modules>
+        <module>application-socle-commun</module>
+        <module>application-socle-data-access-layer</module>
+        <module>application-socle-service-layer</module>
+        <module>application-socle-web-interface-layer</module>
+    </modules>
+
+
+</project>
