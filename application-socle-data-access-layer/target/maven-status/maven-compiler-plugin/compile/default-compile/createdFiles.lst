@@ -1,3 +1,3 @@
+com\weslaty\data\access\repositories\IUserRepository.class
 com\weslaty\data\access\config\PersistenceContext.class
 com\weslaty\data\access\entities\User.class
-com\weslaty\data\access\repositories\UserRepository.class

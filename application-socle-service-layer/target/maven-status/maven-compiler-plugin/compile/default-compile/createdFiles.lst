@@ -1,2 +1,3 @@
+com\weslaty\service\config\ServiceConfig.class
 com\weslaty\service\UserService.class
 com\weslaty\service\IUserService.class
