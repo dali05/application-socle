@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration // indicates that this class contains one or more bean methods annotated with @Bean producing bean manageable by spring container.
 @EnableWebMvc //is equivalent to mvc:annotation-driven in XML. It enables support for @Controller-annotated classes that use @RequestMapping to map incoming requests to specific method.
-@ComponentScan(basePackages = "com.weslaty.web") //is equivalent to context:component-scan base-package="..." providing with where to look for spring managed beans/classes.
+@ComponentScan(basePackages = {"com.weslaty.web","com.weslaty.service"}) //is equivalent to context:component-scan base-package="..." providing with where to look for spring managed beans/classes.
 public class SpringConfig extends WebMvcConfigurerAdapter {
 
     @Bean

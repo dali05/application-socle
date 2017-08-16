@@ -2,43 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2baf4da4-12f7-43c1-ac17-641f2d528197" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-aop-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-aspects-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-beans-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-context-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-context-support-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-core-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-data-jpa-1.3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-expression-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-instrument-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-instrument-tomcat-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-jdbc-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-jms-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-messaging-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-orm-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-oxm-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-test-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/lib/spring-tx-4.3.10.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/welcome_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/model/User.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/IUserRepository.java" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/UserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-commun/target/application-socle-commun-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-commun/target/application-socle-commun-1.0.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/target/application-socle-service-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-service-layer/target/application-socle-service-layer-1.0.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/SpringConfig.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/SpringConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/controller/UserController.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-service-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-service-layer-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/application_socle_web_interface_layer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/application_socle_web_interface_layer_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/SpringConfig.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/SpringConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/controller/UserController.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-commun/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-commun/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/application-socle-data-access-layer.iml" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/application-socle-data-access-layer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/pom.xml" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/database/migration/V1.0.0_0000001__create_user_table.sql" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/database/migration/V1.0.0_0000001__create_user_table.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/database/migration/V1.0.0_0000001__create_user_table.sql" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/database/migration/V1.0.0_0000001__create_user_table.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/application-socle-service-layer.iml" afterPath="$PROJECT_DIR$/application-socle-service-layer/application-socle-service-layer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java" afterPath="$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-service-layer/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/application-socle-web-interface-layer.iml" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/application-socle-web-interface-layer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/application-socle-service-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
@@ -100,8 +92,8 @@
       <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,24 +101,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IUserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/IUserRepository.java">
+      <file leaf-file-name="PagingAndSortingRepository.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.3.RELEASE/spring-data-commons-1.13.3.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersistenceContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,103 +150,47 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+            <state relative-caret-position="355">
+              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1588#1589#0" expanded="true" />
-                <element signature="e#1626#1627#0" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1934#1935#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
-                <element signature="e#2072#2073#0" expanded="true" />
-                <element signature="e#2108#2109#0" expanded="true" />
-                <element signature="e#2142#2143#0" expanded="true" />
-                <element signature="e#2194#2195#0" expanded="true" />
-                <element signature="e#2240#2241#0" expanded="true" />
-                <element signature="e#2279#2280#0" expanded="true" />
-                <element signature="e#2316#2317#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2426#2427#0" expanded="true" />
-                <element signature="e#2465#2466#0" expanded="true" />
-                <element signature="e#2502#2503#0" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
-                <element signature="e#2612#2613#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/pom.xml">
+      <file leaf-file-name="V1.0.0_0000001__create_user_table.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/database/migration/V1.0.0_0000001__create_user_table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="119" column="50" lean-forward="false" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/UserController.java">
+      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebServletConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Autowired.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersistenceContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -263,14 +220,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drop-db-before-test-if-any</find>
-      <find>jdbc:mysql://localhost:3306/applicationjdbc:mysql://localhost:3306/application-socle-db?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC-socle-db</find>
-      <find>jdbc:mysql://localhost:3306/application-socle-db</find>
-      <find>&amp;</find>
-      <find>jdbc:mysql://localhost:3306/epaye?serverTimezone=UTC</find>
-      <find>mysql.url</find>
-      <find>mysql-connector-java.version</find>
-      <find>resources</find>
       <find>flyway</find>
       <find>sql-mave</find>
       <find>sql</find>
@@ -293,6 +242,14 @@
       <find>org.apache.maven.plugins</find>
       <find>HikariCP</find>
       <find>root</find>
+      <find>spring-da</find>
+      <find>Factory method 'dataSource'</find>
+      <find>dataSour</find>
+      <find>dialect</find>
+      <find>&amp;amp;</find>
+      <find>AOI</find>
+      <find>application_socle_db</find>
+      <find>createDate</find>
     </findStrings>
     <replaceStrings>
       <replace>jdbc:mysql://localhost:3306/application-socle-db?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</replace>
@@ -331,10 +288,8 @@
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/servlet/servlet3Test.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/listener/TestListener.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/resources/spring/SpringApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/testSpringMvc.jsp" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/views/welcome.jsp" />
-        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/GreetController.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/http/MediaType.class" />
@@ -344,13 +299,17 @@
         <option value="$PROJECT_DIR$/application-socle-data-access-layer/pom.xml" />
         <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/config/PersistenceContext.java" />
         <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java" />
-        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java" />
         <option value="$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/IUserService.java" />
         <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/IUtilisateurRepository.java" />
-        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/IUserRepository.java" />
-        <option value="$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/IUserRepository.java" />
+        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java" />
+        <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" />
+        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java" />
+        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java" />
+        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/database/migration/V1.0.0_0000001__create_user_table.sql" />
       </list>
     </option>
   </component>
@@ -434,7 +393,7 @@
               <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
@@ -442,53 +401,15 @@
               <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
               <item name="application-socle" type="462c0819:PsiDirectoryNode" />
               <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
-              <item name="application-socle-service-layer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
-              <item name="application-socle-service-layer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
-              <item name="application-socle-service-layer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
-              <item name="application-socle-service-layer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
-              <item name="application-socle-service-layer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -734,12 +655,12 @@
       <workItem from="1502792789594" duration="632000" />
       <workItem from="1502793803461" duration="2024000" />
       <workItem from="1502797779809" duration="10600000" />
-      <workItem from="1502866823615" duration="11172000" />
+      <workItem from="1502866823615" duration="18181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103420000" />
+    <option name="totallyTimeSpent" value="110429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,7 +673,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -762,16 +682,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22654584" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25568798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25568798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22258414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22210184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147122" sideWeight="0.40953413" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147122" sideWeight="0.59046584" order="5" side_tool="true" content_ui="tabs" x="711" y="344" width="498" height="351" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147122" sideWeight="0.40902475" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147122" sideWeight="0.5909752" order="5" side_tool="true" content_ui="tabs" x="711" y="344" width="498" height="351" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4701131" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -795,7 +715,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -803,85 +725,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application-socle-service-layer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/be851c0e/cca3ff2a-69e2-4589-892a-9a49b133db1b/application_socle_db.schema_version">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/be851c0e/cca3ff2a-69e2-4589-892a-9a49b133db1b/application_socle_db.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/index.html" />
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.weslaty:application-socle-web-interface-layer:1.0.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.weslaty:application-socle-web-interface-layer:1.0.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.weslaty:application-socle-web-interface-layer:1.0.0-SNAPSHOT</node>
-            <node x="" y="">com.weslaty:application-socle-service-layer:jar:1.0.0-SNAPSHOT</node>
-            <node x="" y="">com.weslaty:application-socle-service-layer:jar:1.0.0-SNAPSHOT/com.weslaty:application-socle-data-access-layer:jar:1.0.0-SNAPSHOT</node>
-            <node x="" y="">com.weslaty:application-socle-service-layer:jar:1.0.0-SNAPSHOT/com.weslaty:application-socle-data-access-layer:jar:1.0.0-SNAPSHOT/mysql:mysql-connector-java:jar:6.0.6</node>
-            <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.2</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7203389830508474" x="521.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.weslaty:application-socle:1.0.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.weslaty:application-socle:1.0.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.weslaty:application-socle:1.0.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-80.0" y="22.0" />
-          <SelectedNodes>
-            <node>com.weslaty:application-socle:1.0.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/Servlet2.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/annotation/WebServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -961,13 +804,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/resources/spring/SpringApplicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/testSpringMvc.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1016,31 +852,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/WEB-INF/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,29 +876,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,100 +928,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="119" column="50" lean-forward="false" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
+        <state relative-caret-position="238">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java">
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="55" column="77" lean-forward="false" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2072#2073#0" expanded="true" />
-            <element signature="e#2108#2109#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2194#2195#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2279#2280#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2426#2427#0" expanded="true" />
-            <element signature="e#2465#2466#0" expanded="true" />
-            <element signature="e#2502#2503#0" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
-            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#809#810#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/IUserRepository.java">
+    <entry file="file://$PROJECT_DIR$/application-socle-service-layer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/target/classes/com/weslaty/data/access/repositories/UserRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#397#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.3.RELEASE/spring-data-jpa-1.11.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" column="84" lean-forward="false" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/repositories/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
           <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="1499" column="48" lean-forward="false" selection-start-line="1499" selection-start-column="48" selection-end-line="1499" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.3.RELEASE/spring-data-commons-1.13.3.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,29 +1107,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/database/migration/V1.0.0_0000001__create_user_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

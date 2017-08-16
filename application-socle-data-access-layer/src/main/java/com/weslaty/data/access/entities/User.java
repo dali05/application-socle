@@ -8,7 +8,7 @@ import java.util.Date;
 @Entity
 public class User {
     @Id
-    private Long id;
+    private Integer id;
 
     private String login;
 
@@ -20,17 +20,15 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    private String picture;
-
     private String email;
 
     @Column(name = "mobile_phone")
     private String mobilePhone;
 
-    private Long status;
+    private Integer status;
 
     @Column(name = "create_date")
-    private Date create_date;
+    private Date createDate;
 
     @Column(name = "last_update_date")
     private Date lastUpdateDate;
@@ -38,11 +36,11 @@ public class User {
     @Column(name = "last_connection")
     private Date lastConnection;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -78,14 +76,6 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getPicture() {
-        return picture;
-    }
-
-    public void setPicture(String picture) {
-        this.picture = picture;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -102,20 +92,20 @@ public class User {
         this.mobilePhone = mobilePhone;
     }
 
-    public Long getStatus() {
+    public Integer getStatus() {
         return status;
     }
 
-    public void setStatus(Long status) {
+    public void setStatus(Integer status) {
         this.status = status;
     }
 
-    public Date getCreate_date() {
-        return create_date;
+    public Date getCreateDate() {
+        return createDate;
     }
 
-    public void setCreate_date(Date create_date) {
-        this.create_date = create_date;
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
     }
 
     public Date getLastUpdateDate() {

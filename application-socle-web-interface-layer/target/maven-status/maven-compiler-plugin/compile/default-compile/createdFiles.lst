@@ -6,5 +6,4 @@ com\weslaty\web\filter\TestFilter.class
 com\weslaty\web\config\spring\WebServletConfiguration.class
 com\weslaty\web\listener\TestListener.class
 com\weslaty\web\controller\HelloWorldController.class
-com\weslaty\web\model\User.class
 com\weslaty\web\config\spring\SpringConfig.class
