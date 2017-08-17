@@ -14,26 +14,20 @@ public class User {
 
     private String password;
 
-    @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "last_name")
     private String lastName;
 
     private String email;
 
-    @Column(name = "mobile_phone")
     private String mobilePhone;
 
     private Integer status;
 
-    @Column(name = "create_date")
     private Date createDate;
 
-    @Column(name = "last_update_date")
     private Date lastUpdateDate;
 
-    @Column(name = "last_connection")
     private Date lastConnection;
 
     public Integer getId() {

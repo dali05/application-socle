@@ -28,6 +28,14 @@
         <sql-maven-plugin.version>1.5</sql-maven-plugin.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
+    </dependencies>
+
     <modules>
         <module>application-socle-commun</module>
         <module>application-socle-data-access-layer</module>

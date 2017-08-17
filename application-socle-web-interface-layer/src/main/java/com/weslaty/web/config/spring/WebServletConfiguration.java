@@ -11,16 +11,16 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 
 public class WebServletConfiguration implements WebApplicationInitializer {
-    public void onStartup(ServletContext ctx) throws ServletException {
+    public void onStartup(ServletContext servletContext) throws ServletException {
         AnnotationConfigWebApplicationContext webApplicationContext = new AnnotationConfigWebApplicationContext();
         //Register Spring MVC configuration
         webApplicationContext.register(SpringMvcConfig.class);
-        //Register Spring persistence context configuration
+        //Register Spring Service Component in the web application context
         webApplicationContext.register(ServiceConfig.class);
         //Register Spring persistence context configuration
         webApplicationContext.register(PersistenceContext.class);
-        webApplicationContext.setServletContext(ctx);
-        ServletRegistration.Dynamic servlet = ctx.addServlet("dispatcher", new DispatcherServlet(webApplicationContext));
+        webApplicationContext.setServletContext(servletContext);
+        ServletRegistration.Dynamic servlet = servletContext.addServlet("dispatcher", new DispatcherServlet(webApplicationContext));
         servlet.setLoadOnStartup(1);
         servlet.addMapping("/");
     }
