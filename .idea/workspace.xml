@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2baf4da4-12f7-43c1-ac17-641f2d528197" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-commun/target/application-socle-commun-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-commun/target/application-socle-commun-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/com/weslaty/data/access/config/PersistenceContext.class" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/com/weslaty/data/access/config/PersistenceContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/com/weslaty/data/access/entities/User.class" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/com/weslaty/data/access/entities/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/com/weslaty/data/access/repositories/IUserRepository.class" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/com/weslaty/data/access/repositories/IUserRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/target/application-socle-service-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-service-layer/target/application-socle-service-layer-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-data-access-layer-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-service-layer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/application-socle-web-interface-layer-1.0.0-SNAPSHOT/WEB-INF/lib/application-socle-service-layer-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/target/classes/com/weslaty/web/config/spring/WebServletConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/application_socle_web_interface_layer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/application_socle_web_interface_layer_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/UnderScorePhysicalNamingStrategyImpl.java" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/UnderScorePhysicalNamingStrategy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-commun/application-socle-commun.iml" afterPath="$PROJECT_DIR$/application-socle-commun/application-socle-commun.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-commun/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-commun/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/application-socle-data-access-layer.iml" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/application-socle-data-access-layer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/pom.xml" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/application.properties" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/application-socle-data-access-layer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/application-socle-service-layer.iml" afterPath="$PROJECT_DIR$/application-socle-service-layer/application-socle-service-layer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-service-layer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/application-socle-service-layer/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/application-socle-web-interface-layer.iml" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/application-socle-web-interface-layer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" afterPath="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application-socle.iml" afterPath="$PROJECT_DIR$/application-socle.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,18 +86,18 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnderScorePhysicalNamingStrategyImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/UnderScorePhysicalNamingStrategyImpl.java">
+      <file leaf-file-name="UnderScorePhysicalNamingStrategy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/UnderScorePhysicalNamingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -296,12 +268,12 @@
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/WebServletConfiguration.java" />
         <option value="$PROJECT_DIR$/application-socle-web-interface-layer/src/main/java/com/weslaty/web/config/spring/SpringMvcConfig.java" />
         <option value="$PROJECT_DIR$/application-socle-service-layer/src/main/java/com/weslaty/service/UserService.java" />
-        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java" />
         <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/entities/User.java" />
         <option value="$PROJECT_DIR$/application-socle-commun/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/UnderScorePhysicalNamingStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -385,52 +357,56 @@
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="application-socle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="naming" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle" type="462c0819:PsiDirectoryNode" />
+              <item name="application-socle-data-access-layer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -655,12 +631,12 @@
       <workItem from="1502793803461" duration="2024000" />
       <workItem from="1502797779809" duration="10600000" />
       <workItem from="1502866823615" duration="22104000" />
-      <workItem from="1502953680586" duration="8339000" />
+      <workItem from="1502953680586" duration="8649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122691000" />
+    <option name="totallyTimeSpent" value="123001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,6 +649,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -684,7 +661,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25568798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22210184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22210184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.40520042" order="0" side_tool="false" content_ui="combo" />
@@ -1035,14 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/PersistenceContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -1117,10 +1086,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/UnderScorePhysicalNamingStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application-socle-data-access-layer/src/main/java/com/weslaty/data/access/config/UnderScorePhysicalNamingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

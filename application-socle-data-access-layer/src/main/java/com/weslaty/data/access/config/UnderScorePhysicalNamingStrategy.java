@@ -7,7 +7,7 @@ import org.hibernate.engine.jdbc.env.spi.JdbcEnvironment;
 
 import java.io.Serializable;
 
-public class UnderScorePhysicalNamingStrategyImpl extends PhysicalNamingStrategyStandardImpl implements Serializable {
+public class UnderScorePhysicalNamingStrategy extends PhysicalNamingStrategyStandardImpl implements Serializable {
 
     @Override
     public Identifier toPhysicalTableName(Identifier name, JdbcEnvironment context) {
