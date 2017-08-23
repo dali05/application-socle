@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="application-socle-web-interface-layer:war">
-    <output-path>$PROJECT_DIR$/application-socle-web-interface-layer/target</output-path>
-    <root id="archive" name="application-socle-web-interface-layer-1.0.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="application-socle-web-interface-layer:war exploded" />
-    </root>
-  </artifact>
-</component>
