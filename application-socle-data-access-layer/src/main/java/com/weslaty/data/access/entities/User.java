@@ -2,10 +2,9 @@ package com.weslaty.data.access.entities;
 
 import lombok.Data;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Entity
 @Data
@@ -27,10 +26,12 @@ public class User {
 
     private Integer status;
 
-    private Date createDate;
+    //@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
+    private LocalDateTime createDate;
 
-    private Date lastUpdateDate;
+    //@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
+    private LocalDateTime lastUpdateDate;
 
-    private Date lastConnection;
+    private LocalDateTime lastConnection;
 
 }

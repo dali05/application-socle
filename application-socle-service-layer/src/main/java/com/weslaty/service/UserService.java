@@ -11,9 +11,19 @@ import java.util.List;
 public class UserService implements IUserService{
 
     @Autowired
-    IUserRepository IUserRepository;
+    IUserRepository userRepository;
 
     public List<User> findAllUsers() {
-        return IUserRepository.findAll();
+        return userRepository.findAll();
+    }
+
+    @Override
+    public User findUser(Integer id) {
+        return userRepository.findOne(id);
+    }
+
+    @Override
+    public User saveUser(User user) {
+        return userRepository.save(user);
     }
 }
